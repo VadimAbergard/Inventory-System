@@ -92,7 +92,7 @@ public:
 			}
 		}
 
-		//добавляем этот предмет в инвентарь
+		//add item in inventory
 		for (int i = 0; i < size; i++) {
 			if (items[i].getType() == item.getType()) {
 				if (items[i].getCount() != items[i].getMaxCount()) {
